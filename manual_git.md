@@ -5,7 +5,24 @@
 2. Установи текстовый редатор для работы с Gitом. [Ссылка](https://code.visualstudio.com/) 
 
 ## Начало работы с Git
-1. Введи в терминале VScode команду *git version*
+1. Введи в терминале VScode команду *git --version*. Убедись, что Git установлен.
 
-1. Представся системе, введи в терминале VScode команду *git config --global user.name "..."*, *git config --glodal user.email "..."*
+![git version](https://gbcdn.mrgcdn.ru/uploads/geekbrains/public/ckeditor_assets/pictures/11050/retina-84279a3a3daa936ccd47ef817632ea4d.png)
 
+
+2. Представся системе, введи в терминале VScode команду *git config --global user.name "..."*, *git config --glodal user.email "..."*
+
+![git config](https://i.stack.imgur.com/m2y0G.png)
+
+3. Добавь папку, в которой Git будет отслеживать все изменения: *Проводник - Создать папку - путь к папке*
+
+4. Инициализируй папку, используя команду *git init*
+
+> Git создает в указанной папке скрытую папку ".git". В этой папке хранятся служебные файлы Git. 
+
+Чтобы убедиться, что мы инициализировали папку, запутили наш репозиторий, используйте команду *Git status*
+
+## Начало работы с репозиторием
+1. Создай Файл в репозитории. Обязательно укажи расширение!
+
+2. 
